@@ -32,7 +32,33 @@ A modern recipe discovery application built with React, Vite, and TheMealDB API.
 - **Pure CSS** - Styling (no frameworks)
 - **TheMealDB API** - Recipe data
 
-## Getting Started
+## Instalisasi
+
+1. Clone Repository
+
+   git clone https://github.com/Ahmatsembiring/uts-pemweb-1123140053.git
+   cd uts-pemweb--123140053
+2. Install dependencies
+
+   npm install
+3. Jalankan development server
+
+   npm run dev 
+
+```shell
+
+
+
+```
+
+
+```shell
+
+
+
+```
+
+
 
 ### Prerequisites
 
