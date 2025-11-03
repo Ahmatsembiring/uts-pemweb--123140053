@@ -11,12 +11,12 @@ function Header({ favoritesCount, onFavoritesClick }) {
           <p className="header-subtitle">Discover delicious recipes from around the world</p>
         </div>
         <button className="favorites-btn" onClick={onFavoritesClick}>
-          <span className="favorites-icon">♥</span>
+          <span className="favorites-icon">❤️</span>
           <span className="favorites-count">{favoritesCount}</span>
         </button>
       </div>
     </header>
-  )
+  );
 }
 
 export default Header
