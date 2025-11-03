@@ -6,13 +6,9 @@ function RecipeCard({ recipe, onSelect, onToggleFavorite, isFavorited }) {
   return (
     <div className="recipe-card">
       <div className="recipe-image-container">
-        <img src={recipe.strMealThumb || "/placeholder.svg"} alt={recipe.strMeal} className="recipe-image" />
-        <button
-          className={`favorite-btn ${isFavorited ? "favorited" : ""}`}
-          onClick={() => onToggleFavorite(recipe)}
-          title={isFavorited ? "Remove from favorites" : "Add to favorites"}
-        >
-          ♥
+        <img src={recipe.strMealThumb || '/placeholder.svg'} alt={recipe.strMeal} className="recipe-image" />
+        <button className={`favorite-btn ${isFavorited ? 'favorited' : ''}`} onClick={() => onToggleFavorite(recipe)} title={isFavorited ? 'Remove from favorites' : 'Add to favorites'}>
+          ❤️
         </button>
       </div>
       <div className="recipe-info">
@@ -26,7 +22,7 @@ function RecipeCard({ recipe, onSelect, onToggleFavorite, isFavorited }) {
         </button>
       </div>
     </div>
-  )
+  );
 }
 
 export default RecipeCard
