@@ -7,7 +7,7 @@ import RecipeGrid from "./components/RecipeGrid"
 import RecipeDetail from "./components/RecipeDetail"
 import FavoritesSection from "./components/FavoritesSection"
 import "./App.css"
-
+// Menyimpan daftar resep makanan.
 function App() {
   const [recipes, setRecipes] = useState([])
   const [favorites, setFavorites] = useState([])
