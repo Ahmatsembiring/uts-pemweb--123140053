@@ -24,7 +24,7 @@ function App() {
     }
   }, [])
 
-  // Save favorites to localStorage whenever they change
+  // Save favorites to localStorage whenever they change->
   useEffect(() => {
     localStorage.setItem("recipeFavorites", JSON.stringify(favorites))
   }, [favorites])
