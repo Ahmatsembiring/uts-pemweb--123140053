@@ -29,12 +29,9 @@ function RecipeDetail({ recipe, onClose, onToggleFavorite, isFavorited }) {
         </button>
 
         <div className="modal-header">
-          <img src={recipe.strMealThumb || "/placeholder.svg"} alt={recipe.strMeal} className="modal-image" />
-          <button
-            className={`modal-favorite-btn ${isFavorited ? "favorited" : ""}`}
-            onClick={() => onToggleFavorite(recipe)}
-          >
-            ♥
+          <img src={recipe.strMealThumb || '/placeholder.svg'} alt={recipe.strMeal} className="modal-image" />
+          <button className={`modal-favorite-btn ${isFavorited ? 'favorited' : ''}`} onClick={() => onToggleFavorite(recipe)}>
+            ❤️
           </button>
         </div>
 
@@ -78,7 +75,7 @@ function RecipeDetail({ recipe, onClose, onToggleFavorite, isFavorited }) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default RecipeDetail
