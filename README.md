@@ -4,15 +4,15 @@
 
 A modern recipe discovery application built with React, Vite, and TheMealDB API. Search for recipes from around the world and save your favorites locally.
 
-**TAMPILAN AWAL** 
+**TAMPILAN AWAL**
 
 ![1762140940814](image/README/1762140940814.png)
 
-## CARI MENU 
+## CARI MENU
 
 ![1762140977940](image/README/1762140977940.png)
 
-## MENU FAVORIT 
+## MENU FAVORIT
 
 ![1762141030186](image/README/1762141030186.png)
 
@@ -75,18 +75,18 @@ npm run preview
 
 \`\`\`
 src/
-├── main.jsx           # Entry point
-├── App.jsx            # Main component
-├── index.css          # Global styles
-├── App.css            # App styles
+├── main.jsx # Entry point
+├── App.jsx # Main component
+├── index.css # Global styles
+├── App.css # App styles
 └── components/
-    ├── Header.jsx              # Header with favorites counter
-    ├── SearchForm.jsx          # Search input form
-    ├── RecipeGrid.jsx          # Grid display for recipes
-    ├── RecipeCard.jsx          # Individual recipe card
-    ├── RecipeDetail.jsx        # Modal with full recipe details
-    ├── FavoritesSection.jsx    # Favorites display page
-    └── [Component].css         # Component-specific styles
+├── Header.jsx # Header with favorites counter
+├── SearchForm.jsx # Search input form
+├── RecipeGrid.jsx # Grid display for recipes
+├── RecipeCard.jsx # Individual recipe card
+├── RecipeDetail.jsx # Modal with full recipe details
+├── FavoritesSection.jsx # Favorites display page
+└── [Component].css # Component-specific styles
 \`\`\`
 
 ## API
@@ -113,6 +113,6 @@ This app uses the free TheMealDB API:
 - Recipe sharing functionality
 - Dark mode support
 
-## License
+## Link Vercel
 
-MIT License
+https://uts-pemweb-123140053-9d9d92h3m-ahmats-projects-4b2a3188.vercel.app/
