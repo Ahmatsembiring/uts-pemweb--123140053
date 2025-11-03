@@ -1,10 +1,20 @@
-# 
     Website Recipe Search
-
 
 # Ahmat Prayoga Sembiring (123140053)
 
 A modern recipe discovery application built with React, Vite, and TheMealDB API. Search for recipes from around the world and save your favorites locally.
+
+**TAMPILAN AWAL** 
+
+![1762140940814](image/README/1762140940814.png)
+
+## CARI MENU 
+
+![1762140977940](image/README/1762140977940.png)
+
+## MENU FAVORIT 
+
+![1762141030186](image/README/1762141030186.png)
 
 ## Features
 
