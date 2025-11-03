@@ -1,0 +1,18 @@
+# Vite
+dist/
+.vite/
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

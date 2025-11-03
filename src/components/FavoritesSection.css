@@ -1,0 +1,59 @@
+.favorites-empty {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f6f1;
+  border-radius: 12px;
+}
+
+.empty-message {
+  font-size: 18px;
+  color: #999;
+}
+
+.favorites-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.favorites-header {
+  margin-bottom: 32px;
+}
+
+.favorites-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.favorites-count {
+  font-size: 16px;
+  color: #999;
+  font-weight: 500;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .favorites-grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 16px;
+  }
+
+  .favorites-header h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .favorites-grid {
+    grid-template-columns: 1fr;
+  }
+}
